@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import AppContainer from "./containers/AppContainer";
+
 ReactDOM.render(
-    <h1>It is alive!</h1>,
+    <AppContainer />,
     document.getElementById("app")
 );
